@@ -1,0 +1,6 @@
+<launch>
+    <!-- talker.py 실행-->
+    <node pkg = "beginner_tutorials" type = "talker.py" name = "talker" />
+    <!-- listener.py 실행, 터미널에 output 출력-->
+    <node pkg = "beginner_tutorials" type = "listener.py" name = "listener" output = "screen" />
+</launch>
